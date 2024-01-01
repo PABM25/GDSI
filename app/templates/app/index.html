@@ -1,0 +1,378 @@
+{% load static %}
+{% block contenido %}
+<!-- Dentro de la sección <head> -->
+   
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>GDSI </title>
+<meta content="Grupo desarrollo sistemas informáticos es un emprendimiento que buscar realizar los trabajos de desarrollo web de diferentes micro y medianas empresas" name="description">
+<meta content="Desarrollo de páginas web" name="keywords">
+
+<!-- Favicons -->
+<link  href="{% static 'app/img/logo/logo-solo(ico).ico' %}" rel="icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="{% static 'app/vendor/aos/aos.css' %}" rel="stylesheet">
+<link href="{% static 'app/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'app/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+<link href="{% static 'app/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+<link href="{% static 'app/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+<link href="{% static 'app/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Template Main CSS File -->
+<link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+
+<!-- Iconos -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+    <div class="logo">
+        
+        <h1 class="text-light"><a href="#hero"><img src="{% static 'app/img/logo/logo solo.png' %}"></a><a href="#hero"><span> GDSI</span></a></h1>
+    </div>
+
+    <nav id="navbar" class="navbar">
+        <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+        <li><a class="nav-link scrollto " href="#about">Acerca de nosotros</a></li>
+        <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+        <li><a class="nav-link scrollto" href="#sec-eq">Equipo</a></li>            
+        <li><a class="nav-link scrollto" href="#contact">Contáctanos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+    <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 style="font-size: 46px;">¡Bienvenidos a la era de la ingeniería informática!</h1>
+            <h2>Somos un equipo apasionado que, desde el 2023, busca innovar y expandir conocimientos en este mundo tecnológico. Nuestra misión va más allá de la tecnología; nos desafiamos a explorar nuevas fronteras y a impulsar el desarrollo con creatividad y aprendizaje continuo.</h2>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+        <img src="{% static 'app/img/logo/logo solo.png' %}" class="img-fluid animated" alt="logo" height="100px">
+        </div>
+    </div>
+    </div>
+
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+    <div class="container">
+
+        <div class="row justify-content-between">
+        <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+            <img src="{% static 'app/img/2965738.jpg' %}" class="img-fluid" alt="Imagen" data-aos="zoom-in">
+        </div>
+        <div class="col-lg-6 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">Conócenos...</h3>
+            <p data-aos="fade-up" data-aos-delay="100">
+                Somos un grupo de mentes curiosas y apasionadas por la ingeniería informática. Juntos, hemos embarcado en esta emocionante travesía en el año 2023 con el propósito de no solo ofrecer soluciones innovadoras, sino también de seguir expandiendo nuestros horizontes de conocimiento. Nuestro compromiso va más allá de la tecnología; nos esforzamos por mantenernos en constante evolución, explorando nuevas fronteras y desafiando los límites de lo posible. Únete a nosotros en este apasionante viaje, donde la creatividad y el aprendizaje continúan impulsando nuestro desarrollo. ¡Bienvenidos a la era de la ingeniería informática con visión de futuro!            </p>
+            <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-rocket"></i>
+                <h4>Misión</h4>
+                <p>Brindar un servicio integral a nuestros clientes, contribuyendo en ser un aliado confiable, comprometido y eficiente, acorde con los estándares de calidad establecidos.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-eye"></i>
+                <h4>Visión</h4>
+                <p>Nuestro objetivo es convertirnos en la empresa líder en la región de Los Lagos, siendo reconocidos por nuestra excelencia en el desarrollo de soluciones innovadoras en el campo de la ingeniería informática. Nos esforzamos por establecer un legado duradero y ser la opción preferida por nuestros clientes en la región.                    </p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+        <h2>Servicios</h2>
+        <p>Descubre los excelentes servicios que ofrecemos</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+            <div class="icon"><img id="imgpwe" src="{% static 'app/img/4380747.jpg' %}" width="100" ></i></div>
+            <h4 class="title"><a href="">Páginas web estáticas</a></h4>
+            Nuestras páginas web estáticas ofrecen un diseño simple y contenido fijo, perfecto para empresas que buscan una presencia en línea sin la necesidad de actualizaciones constantes. Rápidas y efectivas, son ideales para mostrar información estática a tus visitantes            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+            <div class="icon"><img id ="imgpwd"src="{% static 'app/img/2211.w026.n002.2759B.p1.2759.jpg' %}" width="100" ></div>
+            <h4 class="title"><a href="">Páginas web dinámicas</a></h4>
+            <p class="description">Potencia tu presencia en línea con nuestras páginas web dinámicas. Diseño moderno, interacción avanzada y funcionalidades personalizadas para sitios web que buscan destacar. ¡Impulsa tu negocio con nuestras páginas web dinámicas!</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+            <div class="icon"><img id="market" src="{% static 'app/img/6505894.jpg' %}"></div>
+            <h4 class="title"><a href="">Marketplace</a></h4>
+            <p class="description">"Amplía tu alcance y aumenta tus ventas con nuestro marketplace. Interfaz intuitiva, herramientas de marketing y acceso a una audiencia diversa. ¡Potencia tu negocio con nuestro marketplace!"</p>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+    </section><!-- End Services Section -->
+
+        
+
+    <section id="sec-eq" class="py-5">
+    <div class="container">
+      <h1 id="EQ" class="fw-light">Equipo</h1>
+      <p class="lead">Nosotros somos los integrantes presentes en el proyecto </p>
+      <div id="cont-img">
+        <div class="container profile-page">
+            <div class="row">
+                <div class="col-xl-6 col-lg-7 col-md-12">
+                    <div class="card profile-header">
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="profile-image float-md-right"> <img src="{% static 'app/img/team/chris (2).jpg' %}" alt=""> </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-12">
+                                    <h4 class="m-t-0 m-b-0"><strong>Christofer</strong> Ruiz</h4>
+                                    <span class="job_post">Desarrollador Backend</span>
+                                    <p class="social-icon m-t-5 m-b-0">
+                                        <a title="Linkedin" href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+                                        <a title="Instagram" href="https://www.instagram.com/gdsi_dev?igsh=MXJsMGU1MXVjNHlmbw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                                        </p>
+                                </div>                
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+                
+                
+                <div class="col-xl-6 col-lg-7 col-md-12">
+                    <div class="card profile-header">
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="profile-image float-md-right"> <img src="{% static 'app/img/team/Pilar (2).jpg' %}" alt=""> </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-12">
+                                    <h4 class="m-t-0 m-b-0"><strong>Pilar</strong> Bonnault</h4>
+                                    <span class="job_post">Desarrollo Frontend / Backend</span>
+                                    
+                                    <p class="social-icon m-t-5 m-b-0">
+                                        <a title="Linkedin" href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+                                        <a title="Instagram" href="https://www.instagram.com/gdsi_dev?igsh=MXJsMGU1MXVjNHlmbw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                                        </p>
+                                </div>                
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+                
+                
+                <div class="col-xl-6 col-lg-7 col-md-12">
+                    <div class="card profile-header">
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="profile-image float-md-right"> <img src="{% static 'app/img/team/nico (2).jpg' %}" alt=""> </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-12">
+                                    <h4 class="m-t-0 m-b-0"><strong>Nicolás</strong> González</h4>
+                                    <span class="job_post">Ui UX Designer - Desarrollador FrontEnd</span>                                    
+                                    <p class="social-icon m-t-5 m-b-0">
+                                        <a title="Linkedin" href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+                                        <a title="Instagram" href="https://www.instagram.com/gdsi_dev?igsh=MXJsMGU1MXVjNHlmbw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                                        </p>
+                                </div>                
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+    
+
+<!-- ======= Contact Us Section ======= -->
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="section-title">
+        <h2>Contáctanos</h2>
+        <p>Ponte en contacto con nosotros para mayor información</p>
+      </div>
+  
+      <div class="row">
+  
+        <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="info">
+            <div class="instagram">
+              <i class="bi bi-instagram"></i>
+              <h4>Instagram:</h4>
+              <p>@gdsi_dev</p>
+            </div>
+  
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Correo:</h4>
+              <p>contacto.gdsi@gmail.com</p>
+            </div>
+  
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Fono:</h4>
+              <p>+56 9 41976992</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <label for="name">Correo</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu dirección de correo electrónico" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <label for="name">Asunto</label>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Ingresa la razón por la que nos escribes" required>
+            </div>
+            <div class="form-group mt-3">
+              <label for="name">Mensaje</label>
+              <textarea class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+            </div>
+            <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+          </form>
+        </div>
+  
+      </div>
+  
+    </div>
+  </section><!-- End Contact Us Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    
+    <div class="footer-top">
+    <div class="container">
+        <div class="row">
+            
+        <div class="col-lg-3 col-md-6 footer-links">
+            <div class="centrar"><img src="{% static 'app/img/logo/Logo transparente (fondo claro).png'%}" height="200px"></div>            
+        </div> 
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>GDSI</h3>
+            <p>
+                <br> Puerto Montt <br> Chile <br><br>
+                <strong>Fono:</strong> +56 9 41976992<br>
+                <strong>Correo:</strong> contacto.gdsi@gmail.com<br>
+            </p>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Enlaces útiles</h4>
+            <ul>
+            <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto " href="#about">Acerca de nosotros</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#services">Servicios</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#sec-eq">Equipo</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#contact">Contáctanos</a></li>
+            </ul>
+        </div>          
+
+        <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestras Redes Sociales</h4>
+            <p>¡Síguenos para estar al día de todo!</p>
+            <div class="social-links mt-3">
+            <a href="https://www.instagram.com/gdsi_dev?igsh=MXJsMGU1MXVjNHlmbw==" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container py-4">
+    <div class="copyright">
+        &copy; Copyright <strong><span>Ninestars</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="{% static 'app/vendor/aos/aos.js'%}"></script>
+<script src="{% static 'app/vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+<script src="{% static 'app/vendor/glightbox/js/glightbox.min.js'%}"></script>
+<script src="{% static 'app/vendor/isotope-layout/isotope.pkgd.min.js'%}"></script>
+<script src="{% static 'app/vendor/swiper/swiper-bundle.min.js'%}"></script>
+<script src="{% static 'app/vendor/php-email-form/validate.js'%}"></script>
+
+<!-- Iconos -->
+<script src="https://kit.fontawesome.com/4e5279d3fd.js" crossorigin="anonymous"></script>
+
+<!-- Template Main JS File -->
+<script src="{% static 'app/js/scripts.js' %}"></script>
+<!-- Antes de cerrar el tag </body> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+{% endblock %}
